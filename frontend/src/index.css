@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities {
+    .slow-spin {
+      animation: spin 8s linear infinite;
+    }
+}
